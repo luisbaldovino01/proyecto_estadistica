@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+header p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 13px;
+    
+}
+
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor {
+    max-width: 1400px;
+    margin: auto;
+}
+
+#section1 p{
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#section1{
+    background-color: rgba(71,211,206,255);
+    margin: auto;
+}
+
+#section2{
+    margin-bottom: 500px;
+    width: 50%;
+    margin: auto;
+}
+
+#section2 .contenedor{
+    margin-bottom: 100px;
+}
+
+#section2 h2, h3, h4{
+    margin: 1.8em auto 0.65em;
+    color: #4E4E4E;
+    font-size: 2.5em;
+    letter-spacing: -.02em;
+    line-height: 1.05em;
+}
+
+#section2 .pasos{
+    margin: 1.8em auto 0.65em;
+    color: #4E4E4E;
+    font-size: 1.5em;
+    letter-spacing: -.02em;
+    line-height: 1.05em;
+}
+
+img{
+    border: solid thin black;
+}
+
+#section2 p{
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+#section2 .mi-list{
+    text-align: left;
+    line-height: 1.5em;
+
+}
+ 
+.message{
+    font-size: 50px;
+}
+
+button .calcular{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+   }
+   
+   button .calcular:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   button .calcular:active {
+    transform: translate(0em, 0.2em);
+   }
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+div {
+    margin: 20px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+#tablaFrecuencia {
+    width: 50%; /* Ajusta el ancho según tus preferencias (puedes usar porcentaje o píxeles) */
+    max-width: 1000px; /* Establece un ancho máximo */
+    margin: 0 auto; /* Centra la tabla horizontalmente en la pantalla */
+    font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+#tablaFrecuencia th, #tablaFrecuencia td {
+    padding: 5px; /* Ajusta el espacio entre celdas */
+}

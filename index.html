@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Frecuencia de Variables Cualitativas</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <p>FrequencyStatistics</p>
+        </div>
+    </header>
+
+    <section id="section1">
+        <div class="contenedor">
+            <marquee direction="right" scrollamount="15">
+                <p>Estadistica Básica - ¿Qué es una tabla de Frecuencias?</p>
+            </marquee>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="contenedor">
+            <h2>¿Qué es una tabla de frecuencia?</h2>
+            <p>Una <strong>tabla de frecuencias</strong> es una herramienta estadística que organiza y resume la
+                información
+                sobre la distribución de datos. Consiste en una estructura de columnas que muestra las distintas
+                categorías
+                o valores de una variable, junto con el número de veces que cada categoría ocurre en un conjunto de
+                datos.
+                <br><br>
+                Puedes usar las <strong>tablas de frecuencias</strong> para ordenar variables
+                <strong>cuantitativas</strong>
+                o <strong>cualitativas</strong>.
+            </p>
+            <h3>Tipos de Frecuencias</h3>
+            <ol class="mi-list">
+                <li>Frecuencias absolutas: son el número de veces que se repite un número en un conjunto de datos.</li>
+                <li>Frecuencias absolutas acumuladas: es la suma de las frecuencias absolutas.</li>
+                <li>Frecuencia relativa: corresponde a las veces que se repite un número en un conjunto de datos
+                    respecto al
+                    total, pero se expresa en porcentajes (%).</li>
+                <li>Frecuencia relativa acumulada: es la suma de las frecuencias relativas.</li>
+            </ol>
+            <h4>¿Cómo contruir una Tabla de frecuencia para variables cualitativas?</h4>
+            <p>¡Vamos a tomar como ejemplo un salón de clases! Supongamos que se ha encuestado a un grupo de <strong>15
+                    personas</strong> en CECAR sobre su color favorito. <br><br>
+                Sigue estos pasos para construir tu tabla de frecuencias:</p>
+            <p class="pasos">Paso 1: <br></p>
+            <p>Crea una nueva tabla. En la primera columna, ubica tus variables (color preferido). En la segunda
+                columna,
+                escribe la cantidad de veces que se repite cada color y llama a estos datos <strong>frecuencia
+                    absoluta</strong>.
+            </p>
+            <img src="recursos/paso1.png" alt="primerPaso">
+            <p class="pasos">Paso 2: <br></p>
+            <p>Agregale una columna más para calcualar la <strong>frecuencia absoluta acumulada</strong>. Sus valores se
+                obtienen sumando los datos en diagonal.<br>
+                Por ejemplo: el primer número siempre va a ser igual al primer dato de la frecuencia absoluta, en este
+                caso
+                es 5. Luego, para obtener el segundo dato, necesitas sumar el 5 con el 2, que es el segundo número
+                de la frecuencia absoluta y justamente, el que está ubicado de forma diagonal. Entonces: 5 + 2 = 7.
+                Sigue
+                sumando los números en diagonal hasta llenar toda la columna. <br>
+                Una forma de verificar que los datos obtenidos son correctos es mirar el total de la columna
+                <strong>frecuencia absoluta</strong> y compararlo con el último dato de <strong>frecuencia absoluta
+                    acomulada</strong>, ambos datos deben ser iguales.
+            </p>
+            <img src="recursos/paso2.png" alt="segundoPaso">
+
+            <p class="pasos">Paso 3: <br></p>
+            <p>Ahora, añade una cuarta columnna con el nombre <strong>frecuencia relativa</strong>. Toma cada dato de la
+                frecuencia absoluta y divídelo en 15, que es la cantidad de datos totales que tienes y el resultado se
+                multiplica por 100. Así: <br>
+                (5 ÷ 15) * 100 = 33.33 <br><br>
+                De igual manera, puedes usar la siguiente formula: <br>
+                fr = (fa * 100) / total
+            </p>
+            <img src="recursos/paso3.png" alt="tercerPaso">
+            <p><strong>Nota: </strong>Si al sumar el resultado que obtienes es 0,98 o un número similar, no te
+                preocupes, puedes aproximarlo a 1.</p>
+
+            <p class="pasos">Paso 4: <br></p>
+            <p>Finalmente, añade una última columnna con el nombre <strong>frecuencia relativa acumulada</strong>. debes
+                sumar los datos en diagonal, como lo hicimos para la frecuencia absoluta acumulada.<br><br>
+                Entonces, el primer número siempre va a ser igual al primer dato de la frecuencia relativa, en este caso
+                es cero. Luego, para obtener el segundo dato, necesitas sumar el cero con el 0,1, que es el segundo
+                número de la frecuencia relativa y justamente, el que está ubicado de forma diagonal.
+                Suma todos los datos en diagonal hasta llenar toda la columna. El último número que obtengas debe ser 1.
+            </p>
+            <img src="recursos/paso4.png" alt="cuartoPaso">
+
+            <p>Ahora que ya sabes cómo crear tu tabla de frecuencias, puedes probar nuestra <strong>calculadora de tabla
+                    de frecuencias para variables cualitativas</strong>. Te ayudaremos a crear tablas de frecuencia en
+                tiempo real <strong>¡Usala ya!</strong></p>
+
+            <a href="calculadora.html" target="_blank"><button class="calcular">Calcular ahora!</button></a>
+        </div>
+    </section>
+
+</body>
+
+</html>
